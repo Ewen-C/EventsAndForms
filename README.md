@@ -1,4 +1,4 @@
-# Page Évènements et Formulaires
+# Pages Évènements et Formulaires
 
 Ces simples pages servent d'entraînement aux évènements de JavaScript et aux formulaires d'HTML / PHP. 
 Le clic sur l'un des boutons en pied-de-page active ou désactive la classe redBackground qui fait changer sa couleur.
