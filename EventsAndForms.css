@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    color: #DDD; 
+    background-color: #222;
+
+    font-family: Helvetica;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-shadow: 1.25px 1.25px 0px black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header, section, aside, footer {
+  text-align: center;
+  padding: 5px 2px;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0px 5px;
+    display: inline;
+    transition: background-color 0.1s, color 0.1s;
+
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: white;
+    color: black;
+    
+    border: 2px black solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+
+.redBackground {
+    background-color: white;
+    color: darkred;
+    border: 2px darkred solid;
+}
+.redBackground:hover {
+    background-color: darkred;
+    color: white;
+    border: 2px white solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formInline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+input {
+    margin: 2px;
+    padding: 2px;
+
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px rgba(255, 255, 255, 0.5) solid;
+    transition: border 0.1s;
+    letter-spacing: 0.75px;
+}
+input:hover, input:focus {
+    border: 2px rgba(255, 255, 255, 0.9) solid;
+}
+
+button[type="submit"] {
+    margin: 5px;
+}
+
+a {
+    color: pink;
+    text-decoration: underline;
+}
+a:hover {
+    color: red;
+}

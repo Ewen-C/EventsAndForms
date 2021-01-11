@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Simple page</title>
+		<link rel="stylesheet" type="text/css" href="testEvenements.css">
+		<script src="testEvenements.js" defer></script>
+	</head>
+
+
+	<body>
+		<header id="mainHeader">
+			<h1>Une simple page HTML</h1>
+		</header>
+
+		<section>
+			<p>Ceci est une simple page HTML, composée d'un titre, de quelques paragraphes, 
+				d'un formulaire, et de boutons en pied de page.</p>
+		</section>
+
+		<aside>
+			<form action="testEvenements.php" method="POST">
+
+				<div class="formInline">
+					<label for="nom"> Nom : </label> 
+					<input type="text" name="nom" maxlength="10" required>
+				</div>
+
+				<div class="formInline">
+					<label for="prenom"> Prenom : </label> 
+					<input type="text" name="prenom" maxlength="10" required>
+				</div>
+
+				<button type="submit"> Envoyer </button>
+
+			</form>
+		</aside>
+
+		<footer>
+			<p>
+				<button class="redBackground">Bouton 1</button>
+				<button class="">Bouton 2</button>
+				<button class="">Bouton 3</button>
+				<button class="">Bouton 4</button>
+			</p>
+
+			<p> Informations dans la console du navigateur. </p>
+		</footer>
+
+	</body>
+</html>
