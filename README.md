@@ -10,5 +10,5 @@ Toutes les entrées de la table sont affichées sur la seconde page.
 ## Améliorations possibles de cette page :
 
 - Fusionner les pages pour qu'il n'y ait besoin que d'une seule
-- Ajouter un identifiant aux entrées
+- Ajouter un identifiant aux entrées et afficher ce dernier
 - Pouvoir supprimer et éditer les entrées depuis les pages, pas seulement depuis PhpMyAdmin
